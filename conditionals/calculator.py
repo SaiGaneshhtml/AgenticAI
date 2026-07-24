@@ -1,10 +1,13 @@
-#input samll, meduim,large 
-#s 5,m 15,l 45
 
-cup = input(f'select cup size:{cup}').lower()
-print(f"u r cup size is: {cup}")
-if s==5 or l==15 or m==45:
-    print(f'great choosie :{cup}')
+cup=input('chosen the cup size s/m/l:').lower()
+print(f'this u r chosen size:{cup}')
+#for s=5,m=10,l=20
+
+if   cup == 's':
+    print(f'price is 5')
+elif cup == 'm':
+    print(f'price is 10')
+elif cup == 'l':
+    print(f'price is 20')
 else:
-    print(f'give cup size is unknow')
-    
+    print(f"chosen cup size is invalied ")
