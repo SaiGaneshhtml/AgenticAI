@@ -1,0 +1,15 @@
+# Ignore secret environment variables
+# Ignore virtual environments ANYWHERE in the tree
+**/prompt/
+**/venv/
+**/env/
+**/.venv/
+**/api/
+
+
+# Ignore Python cache files
+**/__pycache__/
+**/*.pyc
+
+# Ignore VS Code settings
+.vscode/
