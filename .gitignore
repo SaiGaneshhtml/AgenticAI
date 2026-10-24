@@ -1,0 +1,13 @@
+# Ignore secret environment variables
+.env
+
+# Ignore virtual environments ANYWHERE in the project
+**/api/
+**/venv/
+**/env/
+
+# Ignore Python cache files ANYWHERE in the project
+**/__pycache__/
+**/*.pyc
+# Ignore VS Code settings
+.vscode/
